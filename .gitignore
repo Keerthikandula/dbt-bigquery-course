@@ -1,0 +1,39 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+
+# Local dbt profiles and credentials
+profiles.yml
+service_account.json
+service_account.json.json
+*.json
+!.vscode/extensions.json
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+*.json
+.env
+dbt-bigquery-course.json
